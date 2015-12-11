@@ -1,0 +1,88 @@
+.navbar-fixed-top{
+  background-color: #FE2E2E;
+}
+.navbar-nav li a {
+  margin-bottom: 0;
+  background-color: #FE2E2E;
+  color: #fff;
+  z-index: 1000;
+  border: 0;
+  font-size: 18px !important;
+  line-height: 80px !important;
+  letter-spacing: 1px;
+  border-radius: 0px;
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+.navbar-form{
+  background-color: #FE2E2E;
+  border-radius: 0px;
+  line-height: 60px;
+  height: 90px;
+  padding-top: 0;
+}
+
+main.container{
+  background-image: url(img/family.jpg) repeat;
+}
+.navbar-fixed-top {
+min-height: 50px;
+}
+
+.container-full {
+  background-color: #FE2E2E;
+  z-index: 9999;
+  padding: 8px;
+  width: 100%;
+}
+
+
+.navbar .navbar .navbar-brand {
+  background-color: #F2F2F2;
+  color: #fff !important;
+}
+
+
+.navbar-nav :hover, .navbar-nav .active{
+    font-size: 18px;
+    color: #FA5858 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+main{
+  background-image: image('img/family.jpg');
+}
+
+transform:scale(2,3); /* W3C */
+-webkit-transform:scale(2,3); /* Safari and Chrome */
+-moz-transform:scale(2,3); /* Firefox */
+-ms-transform:scale(2,3); /* IE 9 */
+-o-transform:scale(2,3); /* Opera */
+
+.my-btn {
+  //@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  @include button-variant(red, white, blue);
+}
+
+/**
+ * Extra large button extensions. Extends `.btn`.
+ */
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+.wrap {
+  width: 560px;
+  padding: 20px;
+}
