@@ -2,9 +2,13 @@
 * {
 font-family:'Ubuntu',sans;
 }
-
-div#main.jumbotron {
-  
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
 .section-divider{
@@ -15,7 +19,8 @@ div#main.jumbotron {
   max-height:120px;
   margin:0px;
   color:#FFF;
-  overflow:hide;
+  float:left;
+  display:inline-table;
 }
 
 .section-divider-title{
@@ -27,6 +32,7 @@ div#main.jumbotron {
   margin:50px 0px;
   color:#FFF;
   overflow:hide;
+  display:inline-table;
 }
 div.jumbotron > h3{
   text-align:center;  
@@ -42,6 +48,9 @@ div.jumbotron > h3{
   background-color:#ce3636;
   padding:20px;
   color:#FFF;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
 
 .fixed-footer a{
@@ -56,8 +65,10 @@ div.jumbotron > h3{
 div.container#register {
   height:600px;
   max-height:100vh;
-  margin:90px;
+  margin:50px;
+  margin-bottom:250px;
   overflow:auto;
+  display:inline-table;
 }
 
 .register-form{
@@ -110,15 +121,16 @@ div.container#register {
 
 #sec-bantu{
   height:500px;
-  max-height:100vh;
-  margin-top:90px;
+  margin: 40px;
+  float:left;
+  display:inline-table;
 }
 
 div#cover{
   background-color:#ce3636;
   background-image:url('../doodle-freepix.png');
   background-position:left bottom;
-  background-repeat:y-repeat;
+  background-repeat:repeat-y;
   background-attachment:fixed;
   background-size:cover;
   height:700px;
@@ -136,6 +148,7 @@ h1.description{
 
 div#cover-desc{
   padding:100px 5px;
+  margin: 0px 40px;
 }
 /*end of tambahan izhan*/
 
@@ -194,20 +207,6 @@ main.container{
     font-size: 18px;
     color: #FA5858 !important;
     background-color: #fff !important;
-}
-main{
-  background-image: image('img/family.jpg');
-}
-
-transform:scale(2,3); /* W3C */
--webkit-transform:scale(2,3); /* Safari and Chrome */
--moz-transform:scale(2,3); /* Firefox */
--ms-transform:scale(2,3); /* IE 9 */
--o-transform:scale(2,3); /* Opera */
-
-.my-btn {
-  //@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
-  @include button-variant(red, white, blue);
 }
 
 /**

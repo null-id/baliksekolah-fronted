@@ -29,6 +29,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
     <a name="utama"></a>
     <div id="cover">
       <div class="container">
@@ -46,9 +47,9 @@
     </div>
     <a name="bantu"></a>
     <div class="section-divider">
-        <div class="container">
-          <h1>Apa yang bisa anda bantu?</h1>        
-        </div>
+      <div class="container">
+        <h1>Apa yang bisa anda bantu?</h1>        
+      </div>
     </div>
   <div class="container" id="sec-bantu">
     <div class="row">
@@ -58,24 +59,18 @@
       <div class="col-sm-6">
         <h2>Bantu kami mengumpulkan data anak putus sekolah atau yang belum sekolah</h2>
         <p>Kami membutuhkan data lengkap mengenai anak-anak yang tidak mampu melanjutkan pendidikannya, atau yang dipaksa untuk bekerja. Data itu dapat kami pakai untuk meratakan distribusi bantuan dana dan/atau fasilitas pendidikan.</p>
-        <button class="btn btn-xlarge btn-red to-center">Klik di sini untuk memberi data</button>
+        <a href="formanak.php" class="btn btn-xlarge btn-red to-center">Klik di sini untuk memberi data</a>
         <p>Data yang telah anda berikan akan melewati proses verifikasi dari para relawan agar calon penerima bantuan adalah yang berhak menerima bantuan.</p>
       </div>
     </div>
   </div>
-  
-<div class="container">
-  <div class="jumbotron" style="background-color:#fff">
-    <h3></h3>
-  </div>
-</div>
 
  <div class="section-divider">
-        <a name="relawan"></a>
-        <div class="container">
-          <h1>Bagaimana cara mendaftar sebagai relawan?</h1>        
-        </div>
-    </div>
+  <a name="relawan"></a>
+  <div class="container">
+    <h1>Bagaimana cara mendaftar sebagai relawan?</h1>        
+  </div>
+ </div>
 
 <div class="container" id="register">
   <div class="row">
@@ -87,7 +82,7 @@
       
     </div>
     <div class="col-sm-6">
-      <form role="register" class="register-form">
+      <form role="register" class="register-form" action="daftar_rel.php" method="post" name="register">
           <legend> Mendaftar Menjadi Relawan </legend>
           <div class="form-group">
            <input type="text" class="form-control" name="username" placeholder="Nama Pengguna" required>
@@ -109,6 +104,7 @@
     </div>
  </div>
 </div>
+
 <footer class="fixed-footer">
  <div class="container">
    <div class="row">
