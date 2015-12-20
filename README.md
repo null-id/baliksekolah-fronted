@@ -1,16 +1,14 @@
 # baliksekolah-fronted
-end user for baliksekolah platform
+branch relawan untuk pengembangan backend relawan.
 
-# change log
-
-- 10 Desember 2015: Perubahan nama BDAPS menjadi BalikSekolah. (agar mudahh diingat)
-
-- 10 Desember 2015: Desain awal halaman depan baru dalam bentuk mockup
-
-- 11 Desember 2015: Desain awal diterapkan ke HTML. Commited to github https://github.com/vickydasta/baliksekolah-fronted
-
-- 13 Desember 2015: Aksi back-end utk relawan selesai. Tinggal menerapkan template
-
-- 13 Desember 2015: Menambah ilustrasi, dan perubahan kalimat di beberapa section halaman depan.
-
-- 13 Desember 2015: Penambahan desain halaman awal di commit ke github.
+# what to do here:
+- menampilkan statistik ringkas aktifitas relawan di dashboard.php
+- update data anak, beserta status (verified atau telah bersekolah).
+- perubahan status disertakan masukan data baru mengenai :
+-- (verified) diverifikasi oleh siapa dan kapan (butuh tambah field baru)
+-- (telah bersekolah) sekolah baru anak (butuh tambah field baru) (menyesuaikan permintaan dinas)
+- login aman (optional)
+- update foto profil
+- tambah isi profil ? (sepi banget tu halaman profilnya xP)
+- list relawan
+- mendetailkan isi statistik chart (demografi umur, tempat tinggal, alasan, yg kembali bersekolah)
